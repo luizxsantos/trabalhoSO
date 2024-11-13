@@ -1,3 +1,4 @@
-# how to compile: gcc -pthread -o mergesort mergesort.c
+# Como compilar: gcc -o mergesort mergesort.c -pthread
 
-#how to run: ./mergesort 4 arq1.dat arq2.dat arq3.dat –o saida.dat
+#Como executar:./mergesort <quantidade de threads> <arquivos de entrada> –o <arquivo de saída>
+#exemplo de execução:./mergesort 4 arq1.dat arq2.dat arq3.dat –o saida.dat
